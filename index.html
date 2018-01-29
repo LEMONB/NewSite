@@ -1,25 +1,49 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Life</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Life</div>
-      </div>
-    </div>
-  </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Space Exploration</title>
+    </head>
+    
+    <body class="allIn">
+	<font face="Calibri">
+        
+        <div class="header" id="header_field">
+            <div id="head_img">
+                <img src="images/header.jpg">
+            </div>
+            
+            <div id="head_text">
+                <a href="index.html">Space Exploration</a>
+            </div>
+        </div>
+        
+        
+        <div class="main" id="main_field">
+            
+            <div class="hover" id="menu">
+                <ul>
+                    <li><a href="missions.html">Missions</a></li>
+                    <li><a href="galleries.html">Galleries</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+
+            <div id="main_article">
+                <h1>Исследование Космоса</h1>
+                <p>Это сайт о космических миссиях.</p>
+                <img src="images/space.jpg">
+                <p>Исследование космоса — изучение космического пространства и небесных тел с помощью космических аппаратов. Исследования космоса ведутся как с помощью пилотируемых космических полетов, так и с помощью автоматических космических аппаратов.
+
+                Техническому исследованию космоса предшествовало развитие астрономии и создание крупных и относительных эффективных ракет в начале XX века. Освоение космоса было одним из направлений соперничества между СССР и США в холодной войне. Началом эпохи освоения космоса можно считать запуск первого искусственного спутника Земли — Спутник-1, запущенного Советским Союзом 4 октября 1957 года.</p>
+            </div>
+            
+        </div>
+        
+        
+        <div class="footer">
+            
+        </div>
+    </body>
 </html>
